@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet"  href="../css/head.min.css"/>
+		<link rel="stylesheet"  href="../css/bottom.min.css"/>
+		 <link rel="import" href="head.html" id="page1"/>
+		 <link rel="import" href="bottom.html" id='page2' />
+		 
+		 	
+	</head>
+	<body>
+				 <script type="text/javascript">
+		            	document.write(page1.import.body.innerHTML);
+		        </script>
+		        <script type="text/javascript" src="../js/jquery-1.12.4.min.js"> </script>
+		       	<script type="text/javascript" src="../js/lunbo.js"></script>
+		       	<script type="text/javascript">
+		       		new Slider('lunbo')
+		       	</script>
+		          <script type="text/javascript">
+		            	document.write(page2.import.body.innerHTML);
+		        </script>
+
+	</body>
+</html>

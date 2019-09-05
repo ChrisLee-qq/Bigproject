@@ -1,0 +1,33 @@
+@charset "utf-8";
+*{margin:0;padding:0}
+body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font-family: "微软雅黑";}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+a,u{text-decoration: none;}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+ul,ol,li{list-style:none;}
+img{display:block;border:0;}
+input{outline:none;border:0;}
+
+
+.head div{width:1490px;height:136px;margin:0 auto;display:flex;align-items: center;}
+.head div img{;width:214px;height:80px; margin-top: 28px;}
+.head div span{font-size: 22px;padding-left:42px;border-left: 1px solid #c0c0c0;height:42px;margin-left:42px;line-height: 42px;}
+
+.body {width:100%;border-bottom: 3px solid #2C2728;background:#fdf8f4;}
+.body div:first-child{height:30px;margin:0 auto;width:1490px;font-size:14px;display:flex;align-items: center;justify-content: center;color:#666666}
+.body div:first-child img{display:inline-block;}
+.body div:first-child span{color:#FF4D00;}
+
+
+.main{width:100%;}
+.main div:first-child{width:1490px;margin:0 auto}
+.main div:nth-child(2){width:1490px;margin:0 auto}
+.main div:nth-child(2) ul{display:flex}
+.main div:nth-child(2) ul li:first-child span:first-child{display:inline-block;width:128px;height:58px;font-size:18px;background:#FFFFFF;border:1px solid #FFFFFF;border-right:transparent}
+ 
+.main div:nth-child(2) ul li:first-child  input{border:1px solid #666666;border-left:transparent;height:58px;font-size:18px;}
+.main div:nth-child(2) ul li:first-child #button{width:594px;height:72px;background:#FF4D00;font-size:22px;color:#FFFFFF}
+
+.main div:nth-child(2) ul li:last-child{border:1px solid #666666}
